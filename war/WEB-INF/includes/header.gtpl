@@ -6,6 +6,9 @@
         <link rel="icon" href="/images/gaelyk-small-favicon.png" type="image/png">
         
         <link rel="stylesheet" type="text/css" href="/css/main.css"/>
+        <link rel="stylesheet" type="text/css" href="/css/reset.css"/>
+        <link rel="stylesheet" type="text/css" href="/css/text.css"/>
+        <link rel="stylesheet" type="text/css" href="/css/960.css"/>
 
         <script type="text/javascript" src="http://www.google.com/jsapi"></script>
         <script type="text/javascript">

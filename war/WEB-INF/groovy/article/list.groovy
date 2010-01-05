@@ -1,0 +1,3 @@
+
+
+forward '/article/list.gtpl'

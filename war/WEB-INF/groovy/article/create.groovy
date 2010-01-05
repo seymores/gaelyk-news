@@ -1,0 +1,3 @@
+
+
+forward "/article/create.gtpl"
