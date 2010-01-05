@@ -3,8 +3,9 @@
 <h1>Welcome</h1>
 
 <p>
-    Congratulations, you've just created your first 
-    <a href="http://gaelyk.appspot.com">Gaelyk</a> application.
+    <a href="http://gaelyk-news.appspot.com">Gaelyk News App</a> application.
+    <br/>
+    <a href="http://github.com/seymores/gaelyk-news">Gaelyk News App is hosted at GitHub</a>.
 </p>
 
 <p>
