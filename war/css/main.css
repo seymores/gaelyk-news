@@ -1,9 +1,45 @@
-body {
-	font-family: Arial;
-	margin: 30px;
+span#title {
+    padding-right:1em;
+    color:#3F0426;
+    font-weight:bold;
 }
 
-h1 {
-	color: #D33381;
-	border-bottom: black 3px dotted;
+span#title a {
+    color:#3F0426;
 }
+
+div.header {
+    background:#FF1493;
+    height:20px;
+    margin-top:5px;
+    color:#fff;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+}
+
+div.main_menu {
+    text-align:left;
+}
+
+div.main_menu a {
+    text-decoration:none;
+    color:#fff;
+}
+
+div.main_menu a:hover {
+    text-decoration:underline;
+}
+
+div.account_menu {
+    text-align:right;
+}
+
+div.account_menu a {
+    text-decoration:none;
+    color:#fff;
+}
+
+div.account_menu a:hover {
+    text-decoration:underline;
+}
+

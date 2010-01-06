@@ -5,3 +5,4 @@
 
 get "/list", forward: "/WEB-INF/groovy/article/list.groovy"
 get "/create", forward: "/WEB-INF/groovy/article/create.groovy"
+get "/submit", forward: "/WEB-INF/groovy/article/create.groovy"

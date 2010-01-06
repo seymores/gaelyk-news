@@ -22,8 +22,28 @@
         
     </head>
     <body>
-        <div>
-            <img src="/images/gaelyk.png">
-            <img src="/images/google-app-engine-groovy.png" align="right">            
+
+        <div class="container_16 header">
+            <div class="grid_10 main_menu">
+                <span id="title"> <a href="/">Gaelyk News</a></span> 
+                <a href="/latest">latest</a> 
+                | 
+                <a href="/top">top</a>
+                | 
+                <a href="/stats">stats</a>
+                | 
+                <a href="/submit">submit</a>
+            </div>
+            <div class="grid_6 account_menu">
+                <%
+                    if (user) {
+                        out << "${user} | <a href=\"${users.createLogoutURL('/')}\">logout</a> "
+                    } else {
+                        out << "<a href=\"${users.createLoginURL('/')}\">login</a>"
+                        out << " | <a href=\"/register\">register</a>"
+                    }
+                %>
+            </div>
         </div>
-        <div>
+
+        <div class="container_16">
