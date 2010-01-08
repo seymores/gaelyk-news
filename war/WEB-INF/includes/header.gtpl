@@ -16,7 +16,6 @@
          
           google.setOnLoadCallback(function() {
             // Place init code here instead of \$(document).ready()
-            console.log( "test?", \$("#test") );
           });
         </script>
         

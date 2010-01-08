@@ -1,0 +1,3 @@
+
+
+forward '/stats.gtpl'
