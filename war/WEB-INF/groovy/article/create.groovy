@@ -11,6 +11,7 @@ if (params && user) {
     article.submiter = user
     article.dateCreated = new Date()
     article.point = 1
+    article.complains = 0
     article.save()
 
     request.flash = "Thank you, the news \"${article.title}\" is submited successfully"
@@ -20,7 +21,6 @@ if (params && user) {
 }
 
 if (!user) {
-    
     String l = " <a href=\"${users.createLoginURL('/')}\">login</a>"
     request.flash = "Please ${l} first before proceed."
 }
