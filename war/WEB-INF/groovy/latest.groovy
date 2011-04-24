@@ -16,4 +16,6 @@ PreparedQuery preparedQuery = datastore.prepare(query)
 def result = preparedQuery.asList( withLimit(20) )
 request.result = result
 
+println " ====> ${result}"
+
 forward  '/latest.gtpl'

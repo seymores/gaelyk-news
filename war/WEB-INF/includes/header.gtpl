@@ -2,8 +2,8 @@
     <head>
         <title>Gaelyk News App</title>
         
-        <link rel="shortcut icon" href="/images/gaelyk-small-favicon.png" type="image/png">
-        <link rel="icon" href="/images/gaelyk-small-favicon.png" type="image/png">
+        <link rel="shortcut icon" href="/images/favicon.png" type="image/png">
+        <link rel="icon" href="/images/favicon.png" type="image/png">
         
         <link rel="stylesheet" type="text/css" href="/css/reset.css"/>
         <link rel="stylesheet" type="text/css" href="/css/text.css"/>
